@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_categorias"
+        android:title="@string/categoria"
+        android:icon="@drawable/gastos24_inferior"/>
+
+    <item
+        android:id="@+id/item_cuentas"
+        android:title="@string/cuentas"
+        android:icon="@drawable/cuentas24_lateral"/>
+
+    <item
+        android:id="@+id/item_fechas"
+        android:title="@string/fechas"
+        android:icon="@drawable/calendario24_lateral"/>
+
+    <item
+        android:id="@+id/item_ajustes"
+        android:title="@string/ajustes"
+        android:icon="@drawable/config24_lateral"/>
+
+</menu>

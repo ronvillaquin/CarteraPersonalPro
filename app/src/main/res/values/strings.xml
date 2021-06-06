@@ -1,0 +1,283 @@
+<resources>
+    <string name="app_name">Cartera Personal PRO</string>
+    <string name="version">Version 1.0</string>
+
+    <string name="porcentaje">%</string>
+
+    <!-- Para Pruebas luego borrar-->
+
+    <string name="prueba">Prueba</string>
+    <string name="tituloLista">Titulo Lista</string>
+    <string name="montoLista">200.00</string>
+    <string name="contenidoLista">Contenido Lista</string>
+    <string name="info">Informacion: </string>
+
+
+    <!-- ***************************************************** -->
+
+<!--    texto d elos tolbars-->
+
+    <string name="graficaGastos">Grafica de Gastos</string>
+    <string name="nuevaTransferencia">Nueva Transferencia</string>
+    <string name="editarTransferencia">Editar Transferencia</string>
+    <string name="nuevoIngreso">Nuevo Ingreso</string>
+    <string name="editarIngreso">Editar Ingreso</string>
+    <string name="nuevoGasto">Nuevo Gasto</string>
+    <string name="editarGasto">Editar Gasto</string>
+    <string name="categorias">Categorias</string>
+    <string name="nuevaCuenta">Nueva Cuenta</string>
+    <string name="editarCuenta">Editar Cuenta</string>
+
+    <string name="crearcuenta">Crear Cuenta</string>
+
+
+<!--    para los botones de cuenta por primera ves y texto-->
+
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnCrear">Cuenta Nueva</string>
+    <string name="si">SI</string>
+    <string name="no">NO</string>
+
+
+    <string name="ano">AÑO</string>
+    <!--    para activity principal los meses-->
+    <string name="MESs">MES</string>
+    <string name="enero">Enero</string>
+    <string name="febrero">Febrero</string>
+    <string name="marzo">Marzo</string>
+    <string name="abril">Abril</string>
+    <string name="mayo">Mayo</string>
+    <string name="junio">Junio</string>
+    <string name="julio">Julio</string>
+    <string name="agosto">Agosto</string>
+    <string name="setiembre">Setiembre</string>
+    <string name="octubre">Octubre</string>
+    <string name="noviembre">Noviembre</string>
+    <string name="diciembre">Diciembre</string>
+
+
+    <!--    Para grafica-->
+    <string name="gastomes">GASTOS DEL MES</string>
+
+    <!--    Para eliminar dialog-->
+    <string name="eliminar">Eliminar</string>
+    <string name="segurodeeliminar">¿ Seguro que deseas Eliminar ?</string>
+    <string name="perderanregistros">Se perderan todos los registros</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <!--    Para la traduccion-->
+    <string name="noDividir">NO SE PUEDE DIVIDIR ENTRE 0</string>
+    <string name="resIndefinido">RESULTADO INDEFINIDO</string>
+    <string name="dosvalores">DEBE INGRESAR DOS VALORES Y UNA OPERACIÓN</string>
+    <string name="fechaymonto">FECHA Y MONTO SON NECESARIOS</string>
+    <string name="numeronegativo">ES UN NUMERO NEGATIVO, VERIFICA EL MONTO</string>
+    <string name="mayoracero">INGRESAR MONTO MAYOR A 0</string>
+    <string name="limitemaximo">LIMITE MAXIMO</string>
+
+    <string name="debequedarunacuenta">DEBE QUEDAR UNA CUENTA</string>
+    <string name="cuentaadd">CUENTA AGREGADA</string>
+    <string name="cuentaedit">CUENTA EDITADA</string>
+    <string name="cuentadelete">CUENTA ELIMINADA</string>
+    <string name="debequedarungasto">DEBE QUEDAR UN GASTO</string>
+    <string name="gastoadd">GASTO AGREGADO</string>
+    <string name="gastoedit">GASTO EDITADO</string>
+    <string name="gastodelete">GASTO ELIMINADO</string>
+    <string name="debequedaruningreso">DEBE QUEDAR UN INGRESO</string>
+    <string name="ingresoadd">IGRESO AGREGADO</string>
+    <string name="ingresoedit">INGRESO EDITADO</string>
+    <string name="ingresodelete">INGRESO ELIMINADO</string>
+    <string name="transferenciaadd">TRANSFERENCIA AGREGADA</string>
+    <string name="transferenciaedit">TRANSFERENCIA EDITADA</string>
+    <string name="transferenciadelete">TRANSFERENCIA ELIMINADA</string>
+    <string name="fechaymontoyicono">FECHA, MONTO Y ICONO SON NECESARIOS</string>
+    <string name="gastomayordisponible">RESULTADO MENOR A SALDO DISPONIBLE </string>
+    <string name="nopuedeeliminaringreso">NO SE PUEDE ELIMINAR, MONTO DISPONIBLE MENOR A 0</string>
+    <string name="unespinerdebecoincidir">UNA CUENTA DEBE COINCIDIR, O ELIMINAR LA TRANSFERENCIA</string>
+    <string name="nopuedeeliminarfaltaunacuenta">NO SE PUEDE EDITAR, UNA CUENTA FUE ELIMINADA</string>
+
+
+    <string name="debeagregarnombreyimagen">DEBE AGREGAR NOMBRE Y IMAGEN</string>
+    <!-- Pantalla ajustes -->
+    <string name="quincena">Quincena</string>
+    <string name="dia">Dia</string>
+    <string name="mes">Mes</string>
+    <!-- Pantalla ajustes -->
+    <string name="acercade">Acerca de Cartera Personal</string>
+    <string name="politica">Política de Privacidad</string>
+    <string name="respaldo">Copia de Seguridad de Datos</string>
+    <string name="restaurar">Restaurar Datos</string>
+    <string name="addglovo">Agregar Cuenta de Glovo</string>
+    <string name="tipomoneda">TIPO DE MONEDA</string>
+
+    <!-- Menu lateral -->
+    <string name="categoria">Categorías</string>
+    <string name="cuentas">Cuentas</string>
+    <string name="fechas">Fechas</string>
+    <string name="ajustes">Ajustes</string>
+
+    <string name="categoriaToas">CATEGORIAS</string>
+    <string name="cuentasToas">CUENTAS</string>
+    <string name="fechasToas">FECHAS</string>
+    <string name="ajustesToas">AJUSTES</string>
+    <string name="transferenciaToas">TRANSFERENCIA</string>
+
+    <!-- Menu inferior -->
+    <string name="grafica">Grafica</string>
+    <string name="gastos">Gastos</string>
+
+    <!-- Spinner -->
+    <string name="seleccionar">Seleccionar</string>
+    <string name="seleccionado">Seleccionado</string>
+    <string name="nodisponible">No Disponible</string>
+
+    <string name="spinneriguales">SELECCIONAR CUENTAS DISTINTAS</string>
+    <string name="montomayoradisponible">MONTO A TRANSFERIR ES MAYOR AL DISPONIBLE</string>
+
+    <!-- Ingreso Egreso -->
+    <string name="ingresototal">Ingreso: </string>
+    <string name="ingresoT">Ingreso: </string>
+    <string name="gastototal">Gasto: </string>
+    <string name="gastoT">Gasto: </string>
+    <string name="saldodisponible">Disponible: 0</string>
+    <string name="transferenciagasto">Transferencia: </string>
+    <string name="transferenciaG">Transferencia: </string>
+    <string name="disponible">Disponible: </string>
+    <string name="trasnsferenciaGrafica">Transferencia</string>
+
+    <!-- Ingreso Ingresos -->
+    <string name="catgastos">Categoria Gastos</string>
+    <string name="catingresos">Categoria Ingresos</string>
+    <string name="nombre">Nombre</string>
+
+    <string name="abrir">Abrir</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="transferencia">Trasnferencia</string>
+    <string name="descripcion">Descripción</string>
+    <string name="agregar">Añadir</string>
+
+    <!-- Calculadora -->
+    <string name="cero">0</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="mas">+</string>
+    <string name="menos">-</string>
+    <string name="por">x</string>
+    <string name="entre">/</string>
+    <string name="igual">=</string>
+    <string name="punto">.</string>
+    <string name="addtransferencia">Añadir Transferencia</string>
+    <string name="addgasto">Añadir Gasto</string>
+    <string name="addingreso">Añadir Ingreso</string>
+    <string name="editgasto">Editar Gasto</string>
+    <string name="editingreso">Editar Ingreso</string>
+    <string name="edittransferencia">Editar Transferencia</string>
+
+    <!--    para la pantalla de ajustes del app-->
+    <string name="acercadeheader">Acerca de</string>
+    <string name="ajustesAcercade">Con esta herramienta hacer el seguimiento de tus cuentas nunca fue tan fácil y eficaz.\n\n
+    Podrás gestionar:\n\n
+
+        Gastos e ingresos\n
+
+        Transferencias\n
+
+        Categorías\n
+
+        Diversas cuentas\n
+
+        Iconos a tu preferencia\n\n
+
+        Grafico para una mejor apreciación de tus gastos\n
+
+    Los iconos fueron diseñados por flaticon
+    </string>
+    <string name="acercadebienvenida">Con esta herramienta hacer el seguimiento de tus cuentas nunca fue tan fácil y eficaz.\n\n
+    Podrás gestionar:\n\n
+
+        Gastos e ingresos\n
+
+        Transferencias\n
+
+        Categorías\n
+
+        Diversas cuentas\n
+
+        Iconos a tu preferencia\n\n
+
+        Grafico para una mejor apreciación de tus gastos\n
+
+    </string>
+
+    <!--<string name="politicaheader">Politica de Privacidad</string>
+    <string name="politicabody">El presente Política de Privacidad establece los términos
+        en que Cartera Personal usa y protege la información que es proporcionada por sus
+        usuarios al momento de utilizar su App. Esta Política de Privacidad puede
+        cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos
+        revisar continuamente este apartado para asegurarse que está de acuerdo con dichos cambios.\n\n
+
+        Nuestra App no le solicitara ningún tipo de información personal, política que
+        puede estar sujeta a cambios con las actualizaciones.\n\n
+
+        En ocasiones, a nuestro criterio, podemos incluir u ofrecer productos o servicios de terceros
+        en nuestra App. Estos sitios de terceros tienen políticas de privacidad separadas e
+        independientes. Por lo tanto, no tenemos responsabilidad u obligación por el contenido y las
+        actividades de estos sitios vinculados. No obstante, buscamos proteger la integridad de nuestro
+        sitio y agradecemos cualquier comentario sobre estos sitios.\n\n
+
+        Cuando se trata de la recopilación de información personal de niños menores de 13 años,
+        la Ley de protección de privacidad en línea para niños (COPPA) pone a los padres en control.
+        La Comisión Federal de Comercio, la agencia de protección al consumidor,
+        hace cumplir la Regla COPPA, que detalla lo que los operadores de sitios web y servicios en línea
+        deben hacer para proteger la privacidad y seguridad de los niños en línea.\n
+        No comercializamos específicamente a niños menores de 15 años.\n\n
+
+        Tenemos derecho a modificar esta Política de privacidad en cualquier momento,
+        sin previo aviso. Cualquier cambio que hagamos en nuestra Política de privacidad
+        se publicará aquí. Vuelva a consultar con frecuencia para ver actualizaciones o cambios
+        en nuestra Política de privacidad.\n\n
+
+        Si hay alguna pregunta sobre esta política de privacidad, puede ponerse en contacto con
+        nosotros mediante la siguiente dirección de correo electrónico: rrvqdesarrolo@gmail.com
+    </string>-->
+
+    <string name="copiadeseguridad">Copia de seguridad</string>
+    <string name="respaldocompleto">RESPALDO COMPLETO</string>
+    <string name="respaldofallido">EL RESPALDO A FALLADO</string>
+    <string name="segurocopia">¿ Esta seguro que desea realizar una copia de seguridad ?\n
+    \n
+        La copia de seguridad se guardara en la carpeta DESCARGAS en el directorio RAIZ de su celular
+        \n\n
+        Con el nombre de BDCartera.bak
+    </string>
+
+    <string name="restaurardatos">Restaurar Datos</string>
+    <string name="restaurarBody">¿ Seguro de restaurar datos ?\n
+
+        Perderá los datos ya guardados posteriormente.
+
+        \n\n
+        Para realizar correctamente la restauración deberá copiar el archivo BDCartera.bak que quiere restaurar
+        en la carpeta DESCARGAS de el directorio RAIZ de su celular.
+    </string>
+    <string name="restauracioncompleta">RESTAURACIÓN COMPLETA</string>
+    <string name="restauracionfallo">LA RESTAURACIÓN HA FALLADO</string>
+
+
+    <string name="restauracionfalloonohayarchivo">NO HAY RESPALDO PARA RESTAURAR</string>
+    <string name="restaurarBodynUEVO">¿ Seguro de restaurar datos ?\n
+
+        Se restauraran los datos solo si la app encuentra un respaldo existente en el dispositivo.
+    </string>
+
+    <string name="noencontrorespaldo">NO HAY RESPALDO PARA RESTAURAR O DEBE DAR PERMISOS</string>
+
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+
+        android:id="@+id/btn_eliminar"
+        android:title="@string/agregar"
+        android:icon="@drawable/delete24_barra"
+        app:showAsAction="always" />
+
+    <item
+
+        android:id="@+id/btn_agregar"
+        android:title="@string/agregar"
+        android:icon="@drawable/save24_barra"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rrvq.carterapersonalpro">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.rrvq.carterapersonalpro.Bienvenida"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.rrvq.carterapersonalpro.SplashScream"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.rrvq.carterapersonalpro.Main2Activity_Transferencia_edit"
+            android:parentActivityName="com.rrvq.carterapersonalpro.Main2Activity_Calendario"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.rrvq.carterapersonalpro.Main2Activity_Gasto_edit"
+            android:parentActivityName="com.rrvq.carterapersonalpro.Main2Activity_Calendario"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonalpro.Main2Activity_Ingreso_edit"
+            android:parentActivityName="com.rrvq.carterapersonalpro.Main2Activity_Calendario"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonalpro.Main2Activity_Calendario"
+            android:parentActivityName="com.rrvq.carterapersonalpro.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonalpro.Main2Activity_Ajustes"
+            android:parentActivityName="com.rrvq.carterapersonalpro.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonalpro.Main2Activity_Categorias_edit"
+            android:parentActivityName="com.rrvq.carterapersonalpro.Main2Activity_Categorias"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonalpro.Main2Activity_Cuentas"
+            android:parentActivityName="com.rrvq.carterapersonalpro.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonalpro.Main2Activity_Categorias_add"
+            android:parentActivityName="com.rrvq.carterapersonalpro.Main2Activity_Categorias"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonalpro.Main2Activity_Categorias"
+            android:parentActivityName="com.rrvq.carterapersonalpro.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonalpro.Main2Activity_Ingreso"
+            android:parentActivityName="com.rrvq.carterapersonalpro.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonalpro.Main2Activity_Gasto"
+            android:parentActivityName="com.rrvq.carterapersonalpro.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonalpro.Main2Activity_Transferencia"
+            android:parentActivityName="com.rrvq.carterapersonalpro.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonalpro.Main2Activity_Grafica"
+            android:parentActivityName="com.rrvq.carterapersonalpro.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rrvq.carterapersonalpro.MainActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

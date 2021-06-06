@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PRO Personal Wallet</string>
+    <string name="version">Version 1.0</string>
+
+    <string name="porcentaje">%</string>
+
+    <!-- Para Pruebas luego borrar-->
+
+    <string name="prueba">Proof</string>
+    <string name="tituloLista">Title List</string>
+    <string name="montoLista">200.00</string>
+    <string name="contenidoLista">Contents List</string>
+    <string name="info">Information: </string>
+
+
+    <!-- ***************************************************** -->
+
+    <!--    texto d elos tolbars-->
+
+    <string name="graficaGastos">Expense Chart</string>
+    <string name="nuevaTransferencia">New Transfer</string>
+    <string name="editarTransferencia">Edit Transfer</string>
+    <string name="nuevoIngreso">New entry</string>
+    <string name="editarIngreso">Edit Login</string>
+    <string name="nuevoGasto">New Expense</string>
+    <string name="editarGasto">Edit Expense</string>
+    <string name="categorias">Categories</string>
+    <string name="nuevaCuenta">New account</string>
+    <string name="editarCuenta">Edit Account</string>
+
+    <string name="crearcuenta">Create Account</string>
+
+
+    <!--    para los botones de cuenta por primera ves y texto-->
+
+    <string name="btnCancelar">Cancel</string>
+    <string name="btnCrear">New account</string>
+    <string name="si">YES</string>
+    <string name="no">NO</string>
+
+
+    <string name="ano">YEAR</string>
+    <!--    para activity principal los meses-->
+    <string name="MESs">MONTH</string>
+    <string name="enero">January</string>
+    <string name="febrero">February</string>
+    <string name="marzo">March</string>
+    <string name="abril">April</string>
+    <string name="mayo">May</string>
+    <string name="junio">June</string>
+    <string name="julio">July</string>
+    <string name="agosto">August</string>
+    <string name="setiembre">September</string>
+    <string name="octubre">October</string>
+    <string name="noviembre">November</string>
+    <string name="diciembre">December</string>
+
+
+    <!--    Para grafica-->
+    <string name="gastomes">EXPENSES OF THE MONTH</string>
+
+    <!--    Para eliminar dialog-->
+    <string name="eliminar">Remove</string>
+    <string name="segurodeeliminar">Are you sure you want to Delete?</string>
+    <string name="perderanregistros">All records will be lost</string>
+    <string name="aceptar">Accept</string>
+    <string name="cancelar">Cancel</string>
+
+    <!--    Para la traduccion-->
+    <string name="noDividir">CANNOT DIVIDE BETWEEN 0</string>
+    <string name="resIndefinido">INDEFINITE RESULT</string>
+    <string name="dosvalores">YOU MUST ENTER TWO VALUES AND ONE OPERATION</string>
+    <string name="fechaymonto">DATE AND AMOUNT ARE NECESSARY</string>
+    <string name="numeronegativo">IT IS A NEGATIVE NUMBER, VERIFY THE AMOUNT</string>
+    <string name="mayoracero">ENTER AMOUNT GREATER THAN 0</string>
+    <string name="limitemaximo">MAXIMUM LIMIT</string>
+
+    <string name="debequedarunacuenta">MUST REMAIN AN ACCOUNT</string>
+    <string name="cuentaadd">ADDED ACCOUNT</string>
+    <string name="cuentaedit">EDITED ACCOUNT</string>
+    <string name="cuentadelete">ACCOUNT REMOVED</string>
+    <string name="debequedarungasto">MUST BE EXPENDITURE</string>
+    <string name="gastoadd">ADDED EXPENDITURE</string>
+    <string name="gastoedit">EDITED EXPENDITURE</string>
+    <string name="gastodelete">EXPUNGED EXPENSE</string>
+    <string name="debequedaruningreso">MUST BE AN INCOME</string>
+    <string name="ingresoadd">ADDED INCOME</string>
+    <string name="ingresoedit">EDITED INCOME</string>
+    <string name="ingresodelete">REMOVED INCOME</string>
+    <string name="transferenciaadd">ADDED TRANSFER</string>
+    <string name="transferenciaedit">EDITED TRANSFER</string>
+    <string name="transferenciadelete">TRANSFER REMOVED</string>
+    <string name="fechaymontoyicono">DATE, AMOUNT AND ICON ARE NECESSARY</string>
+    <string name="gastomayordisponible">RESULT LESS THAN AVAILABLE BALANCE</string>
+    <string name="nopuedeeliminaringreso">CANNOT DELETE, AVAILABLE AMOUNT LESS THAN 0</string>
+    <string name="unespinerdebecoincidir">AN ACCOUNT MUST MATCH, OR REMOVE THE TRANSFER</string>
+    <string name="nopuedeeliminarfaltaunacuenta">CANNOT EDIT, AN ACCOUNT WAS DELETED</string>
+
+
+    <string name="debeagregarnombreyimagen">MUST ADD NAME AND IMAGE</string>
+    <!-- Pantalla ajustes -->
+    <string name="quincena">Fortnight</string>
+    <string name="dia">Day</string>
+    <string name="mes">Month</string>
+    <!-- Pantalla ajustes -->
+    <string name="acercade">About Personal Wallet</string>
+    <string name="politica">Privacy Policy</string>
+    <string name="respaldo">Data Backup</string>
+    <string name="restaurar">Restore Data</string>
+    <string name="addglovo">Add Glovo Account</string>
+    <string name="tipomoneda">TYPE OF CURRENCY</string>
+
+    <!-- Menu lateral -->
+    <string name="categoria">Categories</string>
+    <string name="cuentas">Accounts</string>
+    <string name="fechas">Dates</string>
+    <string name="ajustes">Setting</string>
+
+    <string name="categoriaToas">CATEGORIES</string>
+    <string name="cuentasToas">ACCOUNTS</string>
+    <string name="fechasToas">DATES</string>
+    <string name="ajustesToas">SETTINGS</string>
+    <string name="transferenciaToas">TRANSFER</string>
+
+    <!-- Menu inferior -->
+    <string name="grafica">Graph</string>
+    <string name="gastos">Expenses</string>
+
+    <!-- Spinner -->
+    <string name="seleccionar">Select</string>
+    <string name="seleccionado">Selected</string>
+    <string name="nodisponible">Not available</string>
+
+    <string name="spinneriguales">SELECT DIFFERENT ACCOUNTS</string>
+    <string name="montomayoradisponible">AMOUNT TO TRANSFER IS GREATER THAN AVAILABLE</string>
+
+    <!-- Ingreso Egreso -->
+    <string name="ingresototal">Entry: </string>
+    <string name="ingresoT">Entry: </string>
+    <string name="gastototal">Expense: </string>
+    <string name="gastoT">Expense: </string>
+    <string name="saldodisponible">Available: 0</string>
+    <string name="transferenciagasto">Transfer: </string>
+    <string name="transferenciaG">Transfer: </string>
+    <string name="disponible">Available: </string>
+    <string name="trasnsferenciaGrafica">Transfer</string>
+
+    <!-- Ingreso Ingresos -->
+    <string name="catgastos">Category Expenses</string>
+    <string name="catingresos">Category Entry</string>
+    <string name="nombre">Name</string>
+
+    <string name="abrir">Open</string>
+    <string name="cerrar">Close</string>
+    <string name="transferencia">Transfer</string>
+    <string name="descripcion">Description</string>
+    <string name="agregar">Add</string>
+
+    <!-- Calculadora -->
+    <string name="cero">0</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="mas">+</string>
+    <string name="menos">-</string>
+    <string name="por">x</string>
+    <string name="entre">/</string>
+    <string name="igual">=</string>
+    <string name="punto">.</string>
+    <string name="addtransferencia">Add Transfer</string>
+    <string name="addgasto">Add Expense</string>
+    <string name="addingreso">Add Income</string>
+    <string name="editgasto">Edit Expense</string>
+    <string name="editingreso">Edit Login</string>
+    <string name="edittransferencia">Edit Transfer</string>
+
+    <!--    para la pantalla de ajustes del app-->
+    <string name="acercadeheader">About</string>
+    <string name="ajustesAcercade">With this tool, keeping track of your accounts has never been so easy and effective.\n\n
+    You can manage:\n\n
+
+        Expenses and incomes\n
+
+        Transfers\n
+
+        Categories\n
+
+        Various accounts\n
+
+        Icons to your preference\n\n
+
+        Graph for a better appreciation of your expenses\n
+
+    The icons were designed by flaticon
+    </string>
+    <string name="acercadebienvenida">With this tool, keeping track of your accounts has never been so easy and effective.\n\n
+    You can manage:\n\n
+
+        Expenses and incomes\n
+
+        Transfers\n
+
+        Categories\n
+
+        Various accounts\n
+
+        Icons to your preference\n\n
+
+        Graph for a better appreciation of your expenses\n
+
+    </string>
+
+    <!--<string name="politicaheader">Politica de Privacidad</string>
+    <string name="politicabody">El presente Política de Privacidad establece los términos
+        en que Cartera Personal usa y protege la información que es proporcionada por sus
+        usuarios al momento de utilizar su App. Esta Política de Privacidad puede
+        cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos
+        revisar continuamente este apartado para asegurarse que está de acuerdo con dichos cambios.\n\n
+
+        Nuestra App no le solicitara ningún tipo de información personal, política que
+        puede estar sujeta a cambios con las actualizaciones.\n\n
+
+        En ocasiones, a nuestro criterio, podemos incluir u ofrecer productos o servicios de terceros
+        en nuestra App. Estos sitios de terceros tienen políticas de privacidad separadas e
+        independientes. Por lo tanto, no tenemos responsabilidad u obligación por el contenido y las
+        actividades de estos sitios vinculados. No obstante, buscamos proteger la integridad de nuestro
+        sitio y agradecemos cualquier comentario sobre estos sitios.\n\n
+
+        Cuando se trata de la recopilación de información personal de niños menores de 13 años,
+        la Ley de protección de privacidad en línea para niños (COPPA) pone a los padres en control.
+        La Comisión Federal de Comercio, la agencia de protección al consumidor,
+        hace cumplir la Regla COPPA, que detalla lo que los operadores de sitios web y servicios en línea
+        deben hacer para proteger la privacidad y seguridad de los niños en línea.\n
+        No comercializamos específicamente a niños menores de 15 años.\n\n
+
+        Tenemos derecho a modificar esta Política de privacidad en cualquier momento,
+        sin previo aviso. Cualquier cambio que hagamos en nuestra Política de privacidad
+        se publicará aquí. Vuelva a consultar con frecuencia para ver actualizaciones o cambios
+        en nuestra Política de privacidad.\n\n
+
+        Si hay alguna pregunta sobre esta política de privacidad, puede ponerse en contacto con
+        nosotros mediante la siguiente dirección de correo electrónico: rrvqdesarrolo@gmail.com
+    </string>-->
+
+    <string name="copiadeseguridad">Backup</string>
+    <string name="respaldocompleto">FULL BACKUP</string>
+    <string name="respaldofallido">THE BACKUP HAS FAILED</string>
+    <string name="segurocopia">Are you sure you want to back up?\n
+    \n
+        The backup is saved in the DOWNLOADS folder in the ROOT directory of your cell phone
+        \n\n
+        With the name of BDCartera.bak
+    </string>
+
+    <string name="restaurardatos">Restore Data</string>
+    <string name="restaurarBody">Are you sure to restore data?\n
+
+        You will lose the data already saved later.
+
+        \n\n
+        To successfully restore, you must copy the BDCartera.bak file that you
+        want to restore to the DOWNLOADS folder in the ROOT directory of your cell phone.
+    </string>
+    <string name="restauracioncompleta">COMPLETE RESTORATION</string>
+    <string name="restauracionfallo">THE RESTORATION HAS FAILED</string>
+
+
+    <string name="restauracionfalloonohayarchivo">NO BACKUP TO RESTORE</string>
+    <string name="restaurarBodynUEVO">Are you sure to restore data?\n
+
+        Data is restored only if the app finds an existing backup on the device.
+    </string>
+
+    <string name="noencontrorespaldo">OR YOU MUST GIVE PERMITS</string>
+
+
+</resources>

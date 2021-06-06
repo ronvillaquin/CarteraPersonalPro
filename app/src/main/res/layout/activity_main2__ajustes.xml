@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity_Ajustes">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_acercade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorBlanco"
+            android:drawableStart="@drawable/acercade24_ajustes"
+            android:drawablePadding="10dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="fill_vertical"
+            android:onClick="btnAcercaDe"
+            android:padding="10dp"
+            android:text="@string/acercade"
+            android:textColor="@color/colorGrisOscuro"/>
+
+        <Button
+            android:id="@+id/btn_politicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorBlanco"
+            android:drawableStart="@drawable/politicas24_ajustes"
+            android:drawablePadding="10dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="fill_vertical"
+            android:onClick="btnPolitica"
+            android:padding="10dp"
+            android:text="@string/politica"
+            android:textColor="@color/colorGrisOscuro" />
+        <Button
+            android:id="@+id/btn_respaldo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:background="@color/colorBlanco"
+            android:drawableStart="@drawable/respaldo24_ajustes"
+            android:drawablePadding="10dp"
+            android:text="@string/respaldo"
+            android:textColor="@color/colorGrisOscuro"
+            android:gravity="fill_vertical"
+            android:onClick="btnBakup"/>
+
+        <Button
+            android:id="@+id/btn_restaurar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorBlanco"
+            android:drawableStart="@drawable/restaurar24_ajustes"
+            android:drawablePadding="10dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="fill_vertical"
+            android:onClick="btnRestaurar"
+            android:padding="10dp"
+            android:text="@string/restaurar"
+            android:textColor="@color/colorGrisOscuro" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:background="@color/colorBlanco">
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="30dp"
+            android:text="@string/tipomoneda"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:textColor="@color/colorGrisOscuro"/>-->
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:paddingStart="43dp"
+                android:gravity="fill_vertical"
+                android:text="@string/tipomoneda"
+                android:textColor="@color/colorGrisOscuro" />
+
+        <Spinner
+            android:id="@+id/view_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlanco"
+            android:paddingStart="10dp"
+            android:gravity="start"
+            android:spinnerMode="dropdown"/>
+
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:background="@color/colorBlanco">
+
+            <Button
+                android:id="@+id/btn_addglovo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/glovo24_spinner"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorSecundary"
+                android:text="@string/addglovo"
+                android:textColor="@color/colorGrisOscuro"
+                android:gravity="fill_vertical"
+                android:layout_weight="1"/>
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

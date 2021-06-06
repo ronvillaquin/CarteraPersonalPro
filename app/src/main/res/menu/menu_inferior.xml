@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_gasto"
+        android:title="@string/gastos"
+        android:icon="@drawable/gastos24_inferior"/>
+
+    <item
+        android:id="@+id/menu_grafica"
+        android:title="@string/grafica"
+        android:icon="@drawable/grafica24_inferior"/>
+
+</menu>
